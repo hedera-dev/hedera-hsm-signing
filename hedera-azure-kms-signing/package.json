@@ -1,0 +1,23 @@
+{
+  "name": "hedera-hsm-demo",
+  "version": "1.0.0",
+  "description": "Hedera key-management demo that signs transactions with a Azure HSM-backed secp256k1 key",
+  "main": "azure-hedera-hsm.js",
+  "scripts": {
+    "start": "node azure-hedera-hsm.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/kms": "^4.3.1",
+    "@hashgraph/sdk": "^2.25.0",
+    "asn1.js": "^5.4.1",
+    "elliptic": "^6.5.4",
+    "keccak256": "^1.0.6",
+    "dotenv": "^16.4.1",
+    "@azure/keyvault-keys": "^4.7.0",
+    "@azure/identity": "^4.0.0"
+  },
+  "license": "Apache-2.0"
+}
