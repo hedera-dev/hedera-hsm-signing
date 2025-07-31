@@ -1,0 +1,20 @@
+# ── Node dependencies ──────────────────────────
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+.pnpm-store/
+
+# ── Environment & secrets ──────────────────────
+.env
+*.json          
+!package*.json 
+signer.token
+token.txt
+transit-policy.hcl
+
+# ── Logs & OS noise ────────────────────────────
+*.log
+*.log.*
+.DS_Store
+.vscode/

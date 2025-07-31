@@ -1,0 +1,21 @@
+{
+  "name": "vault-hedera-demo",
+  "version": "1.0.0",
+  "description": "Hedera demo that signs transactions with a secp256k1 key stored in HashiCorp Vault (vault-plugin-secrets-ethsign)",
+  "main": "vault-hedera.js",
+  "scripts": {
+    "start": "node vault-hedera.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.25.0",
+    "axios": "^1.6.8",
+    "asn1.js": "^5.4.1",
+    "elliptic": "^6.5.4",
+    "keccak256": "^1.0.6",
+    "dotenv": "^16.4.1"
+  },
+  "license": "Apache-2.0"
+}
